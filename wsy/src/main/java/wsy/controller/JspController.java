@@ -17,4 +17,9 @@ public class JspController {
 		return new ModelAndView("login/login");
 	}
 	
+	@RequestMapping(value="/login")
+	public ModelAndView login1(HttpServletRequest request){
+		return new ModelAndView("login/login");
+	}
+	
 }
